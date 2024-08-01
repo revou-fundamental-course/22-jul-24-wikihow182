@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripTreasure</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image\logo-no-background.png" alt="TripTreasure Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Explore the World with Us</h1>
+            <p>Your journey begins here.</p>
+            <button id="cta-button">Book Now</button>
+        </section>                
+
+        <section class="travel-packages">
+            <h2>Our Travel Packages</h2>
+            <div class="package-grid">
+                <div class="package">
+                    <h3>Singapore</h3>
+                    <img src="image\singapore-1-960x600-1.jpg" alt="Singapore">
+                    <p>Explore the vibrant city of Singapore with our exclusive travel packages. Enjoy the blend of modern architecture and cultural heritage.</p>
+                    <button class="package-button">klik disini</button>
+                </div>
+                <div class="package">
+                    <h3>Japan</h3>
+                    <img src="image/japan.jpg" alt="Japan">
+                    <p>Discover the beauty of Japan, from the bustling streets of Tokyo to the serene landscapes of Kyoto. Our packages are designed for an unforgettable experience.</p>
+                    <button class="package-button">klik disini</button>
+                </div>
+                <div class="package">
+                    <h3>Thailand</h3>
+                    <img src="image\bangkok.jpg" alt="Thailand">
+                    <p>Experience the exotic charm of Thailand. From stunning beaches to vibrant markets, our packages cover the best of Thailand.</p>
+                    <button class="package-button">klik disini</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="benefit-grid">
+            <div class="benefit">
+                <i class='bx bxs-user-circle'></i>
+                <p>"This travel agency made our dream vacation a reality!"</p>
+                <p>- juki</p>
+            </div>
+            <div class="benefit">
+                <i class='bx bxs-user-circle'></i>
+                <p>"An unforgettable experience with excellent service."</p>
+                <p>- Mosidiq</p>
+            </div>
+            </div>
+        </section>
+
+        <!-- New Benefits Section -->
+        <section class="benefits">
+            <h2>Benefits of Traveling with Us</h2>
+            <div class="benefit-grid">
+                <div class="benefit">
+                    <h3>24/7 Support</h3>
+                    <p>Travel with confidence knowing our support team is always available to assist you.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Expert Guides</h3>
+                    <p>Benefit from the knowledge and passion of our experienced guides.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Safety and Comfort</h3>
+                    <p>We prioritize your safety and comfort with trusted partners and quality services.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Sustainable Travel</h3>
+                    <p>Enjoy eco-friendly travel options that support local communities and reduce environmental impact.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Authentic Experiences</h3>
+                    <p>Experience destinations like a local with our curated cultural activities and unique experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
+                        <form role="form" method="post" action="#">
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            <input name="email" type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message" required></textarea>
+                            <input name="send" type="submit" class="form-control" id="send" value="SEND MESSAGE">
+                        </form>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <address>
+                            <p class="contact-title">CONTACT US</p>
+                            <p><i class="fa fa-phone"></i> 090-080-0760</p>
+                            <p><i class="fa fa-envelope-o"></i> info@travelagency.com</p>
+                            <p><i class="fa fa-map-marker"></i> 120 Old Walking Street, GL 16060</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
